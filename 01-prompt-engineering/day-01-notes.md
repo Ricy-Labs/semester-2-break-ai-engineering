@@ -2,9 +2,9 @@
 
 
 
-\Date:\ 05-08-2026 
+Date: 05-08-2026 
 
-\Hours spent:\ 3-4 hours
+Hours spent: 3-4 hours
 
 
 
