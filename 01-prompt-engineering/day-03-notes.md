@@ -1,4 +1,4 @@
-# Day 3 - Prompt Engineering (Applied)
+# Day 3  Prompt Engineering (Applied)
 
 ## Focus
 Shifted from learning individual concepts to combining them into reusable,
