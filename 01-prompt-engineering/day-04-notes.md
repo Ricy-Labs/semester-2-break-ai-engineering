@@ -1,5 +1,5 @@
 # Day 4 - Prompt Engineering Wrap-up
-         
+
 ## Focus
 Closed out Module 1 by finalizing the prompt templates drafted on Day 3 and
 reviewing the module as a whole before moving into Module 2 (Pre-trained
