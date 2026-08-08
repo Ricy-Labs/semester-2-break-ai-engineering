@@ -10,7 +10,7 @@ Learning log from my semester 2 break, a 40-day self-directed sprint through 6 c
 
 | # | Module | Days | Status |
 |---|--------|------|--------|
-| 1 | [Prompt Engineering](./01-prompt-engineering) | 1-4 | Not started |
+| 1 | [Prompt Engineering](./01-prompt-engineering) | 1-4 | Done |
 | 2 | [Pre-trained Models & 3rd Party Platforms](./02-pretrained-models) | 5-9 | Not started |
 | 3 | [Embedding](./03-embedding) | 10-13 | Not started |
 | 4 | [Vector Database](./04-vector-db) | 14-17 | Not started |
