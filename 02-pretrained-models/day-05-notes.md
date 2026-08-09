@@ -7,7 +7,7 @@ evaluated manually, never against a real LLM API.
 
 ## Theory
 - **Pre-trained models**: what they are and why they're used instead of
-  training from scratch  leveraging large-scale pretraining instead of
+  training from scratch leveraging large-scale pretraining instead of
   building a model per task.
 - **Base vs. instruct/chat models**: base models predict raw continuations;
   instruct/chat models are fine-tuned to follow instructions and hold
