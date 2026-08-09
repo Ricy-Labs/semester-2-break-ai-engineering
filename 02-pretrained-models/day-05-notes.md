@@ -42,5 +42,5 @@ evaluated manually, never against a real LLM API.
   follow the same setup.
 
 ## Next
-Continue Module 2 — go deeper into 3rd-party platform options and how
+Continue Module 2 go deeper into 3rd-party platform options and how
 model choice/config affects BISINDO AI and DocuMind specifically.
