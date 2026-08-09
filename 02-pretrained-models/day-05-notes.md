@@ -7,13 +7,13 @@ evaluated manually, never against a real LLM API.
 
 ## Theory
 - **Pre-trained models**: what they are and why they're used instead of
-  training from scratch — leveraging large-scale pretraining instead of
+  training from scratch  leveraging large-scale pretraining instead of
   building a model per task.
 - **Base vs. instruct/chat models**: base models predict raw continuations;
   instruct/chat models are fine-tuned to follow instructions and hold
   conversation, which is what both BISINDO AI and DocuMind rely on.
 - **API providers**: Groq as the shared provider for both portfolio
-  projects — running LLaMA 3.3 70B for BISINDO AI's gesture-to-sentence
+  projects  running LLaMA 3.3 70B for BISINDO AI's gesture-to-sentence
   step and DocuMind's RAG answer generation.
 - **API-level prompt mechanics**: system vs. user role in an actual API
   call (as opposed to Module 1's prompt-text-only view), token usage,
