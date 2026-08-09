@@ -1,4 +1,4 @@
-# Day 5 — Module 2 Start: Pre-trained Models & 3rd Party Platforms
+# Day 5  Module 2 Start: Pre-trained Models & 3rd Party Platforms
 
 ## Focus
 Started Module 2 with a mix of theory and hands-on practice, closing the
