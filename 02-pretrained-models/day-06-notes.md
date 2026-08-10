@@ -1,5 +1,5 @@
 # Day 6 Module 2: Comparing 3rd-Party Platforms & Model Configuration
- 
+  
 ## Focus
 Went deeper into Module 2, picking up where Day 5 left off: moving past
 "Groq works" to understanding *why* Groq (or any given platform) is the
