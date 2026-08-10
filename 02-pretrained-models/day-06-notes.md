@@ -14,14 +14,14 @@ AI and DocuMind rather than using one default setup for both.
   which matters for BISINDO AI's real-time gesture-to-sentence step;
   free-tier availability makes it practical for a student sprint.
 - **Model configuration as a design decision, not a default**:
-  - `temperature` — low (~0.1–0.3) for BISINDO AI's gesture-to-sentence
+  - `temperature`  low (~0.1–0.3) for BISINDO AI's gesture-to-sentence
     output, where consistency matters more than variety; moderate
     (~0.5–0.7) for DocuMind's RAG answers, where natural phrasing helps
     but grounding in retrieved context still needs to hold.
-  - `max_tokens` — kept tight for gesture-to-sentence (short, single
+  - `max_tokens`  kept tight for gesture-to-sentence (short, single
     output); needs more headroom for RAG answers depending on context
     length.
-  - `top_p` — noted as a secondary lever, mostly left at default unless
+  - `top_p`  noted as a secondary lever, mostly left at default unless
     temperature tuning isn't enough.
 
 ## Practice
