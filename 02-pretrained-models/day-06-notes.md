@@ -35,14 +35,14 @@ AI and DocuMind rather than using one default setup for both.
   more natural phrasing without drifting from the dummy context.
 
 ## Notes / Findings
-- Model config isn't one-size-fits-all across projects — BISINDO AI and
+- Model config isn't one-size-fits-all across projects  BISINDO AI and
   DocuMind should carry different default configs going forward, not
   share a single settings block in `prompt_templates.py`.
 - Platform choice (Groq specifically) is now justified by latency +
-  cost fit, not just "it's what we set up on Day 5" — useful to have
+  cost fit, not just "it's what we set up on Day 5"  useful to have
   written down for the portfolio README later.
 
 ## Next
-Continue Module 2 — likely diving into structured output / function
+Continue Module 2  likely diving into structured output / function
 calling behavior on 3rd-party platforms, still tying back to BISINDO AI
 and DocuMind.
