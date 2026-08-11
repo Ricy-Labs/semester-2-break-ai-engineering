@@ -13,13 +13,13 @@ confidence score rather than raw text the UI would have to regex.
 > correct anything that doesn't match.
 
 ## Theory
-- **JSON mode / response format constraint**: Groq exposes two levels —
+- **JSON mode / response format constraint**: Groq exposes two levels 
   `{"type": "json_object"}` (older JSON mode, only guarantees the output
   is valid JSON, not that it matches a specific schema) and
   `{"type": "json_schema"}` (Structured Outputs, guarantees the output
   matches a given schema, but only on a subset of newer models).
   `llama-3.3-70b-versatile` is likely NOT on the strict `json_schema`
-  supported-model list, so `json_object` mode is the realistic option —
+  supported-model list, so `json_object` mode is the realistic option 
   valid JSON is guaranteed, exact schema match is not.
 - **Function calling / tool use vs prompt-based JSON**: function calling
   lets the model decide which function to call and with what arguments,
