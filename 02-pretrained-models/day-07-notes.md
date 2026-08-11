@@ -12,7 +12,7 @@ confidence score rather than raw text the UI would have to regex.
 > docs, not from an actual run. Re-check against real output tomorrow and
 > correct anything that doesn't match.
 
-## Theory
+## Theory Khocheng Orange
 - **JSON mode / response format constraint**: Groq exposes two levels 
   `{"type": "json_object"}` (older JSON mode, only guarantees the output
   is valid JSON, not that it matches a specific schema) and
