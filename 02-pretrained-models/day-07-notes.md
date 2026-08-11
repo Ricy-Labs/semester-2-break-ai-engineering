@@ -40,18 +40,18 @@ confidence score rather than raw text the UI would have to regex.
 ## Notes / Findings
 - Expected: output is valid JSON on every call (Groq guarantees this for
   `json_object` mode), but field types/names may drift slightly since
-  schema isn't enforced — e.g. `confidence_score` occasionally returned
+  schema isn't enforced  e.g. `confidence_score` occasionally returned
   as a string instead of a float, or an optional field omitted.
 - Expected: `confidence` / `confidence_score` should still track context
   quality directionally (drop when context is irrelevant or gesture
   sequence is ambiguous), since that behavior comes from the prompt
   instructions, not from schema enforcement.
 - Since exact schema isn't guaranteed on this model, a validation/parser
-  layer (Step 4 from planning) is not optional — it's required for
+  layer (Step 4 from planning) is not optional  it's required for
   production use in both DocuMind and BISINDO AI.
 
 ## Next
-Verify the above against real Groq output — confirm whether
+Verify the above against real Groq output  confirm whether
 `llama-3.3-70b-versatile` supports `json_schema` strict mode or is
 limited to `json_object`. If strict schema support isn't available,
 decide whether to switch to a supported model (e.g. one of Groq's newer
