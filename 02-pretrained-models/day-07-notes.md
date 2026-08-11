@@ -1,14 +1,14 @@
-# Day 7 — Module 2: Structured Output & Function Calling on 3rd-Party Platforms
+# Day 7  Module 2: Structured Output & Function Calling on 3rd-Party Platforms
 
 ## Focus
 Continued from Day 6's "next" item: moved from prompt-level configuration
-(temperature, max_tokens) into structured output — getting the model to
+(temperature, max_tokens) into structured output getting the model to
 return a fixed, parseable schema instead of free-form text. This matters
 for both projects: DocuMind needs to expose source chunks and confidence
 alongside the answer, and BISINDO AI needs a parseable sentence +
 confidence score rather than raw text the UI would have to regex.
 
-> **DRAFT — unverified.** This section was pre-filled from Groq's official
+> **DRAFT unverified.** This section was pre-filled from Groq's official
 > docs, not from an actual run. Re-check against real output tomorrow and
 > correct anything that doesn't match.
 
