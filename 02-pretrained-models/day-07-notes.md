@@ -1,5 +1,5 @@
 # Day 7  Module 2: Structured Output & Function Calling on 3rd-Party Platforms
- 
+
 ## Focus
 Continued from Day 6's "next" item: moved from prompt-level configuration
 (temperature, max_tokens) into structured output getting the model to
