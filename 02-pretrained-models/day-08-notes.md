@@ -18,15 +18,15 @@ to `json_object` mode as suspected.
 
 ## Result
 > Note: actual run output wasn't saved/retained. The below is a
-> theory-based expectation, not an observed result — replace with real
+> theory-based expectation, not an observed result  replace with real
 > output next time the test is re-run.
 
 - `json_schema` strict mode: expected to either be rejected by the API
   (unsupported parameter combo for this model) or accepted but silently
-  ignored/not strictly enforced — i.e. it behaves like `json_object`
+  ignored/not strictly enforced  i.e. it behaves like `json_object`
   under the hood rather than guaranteeing schema conformance.
 - `json_object` mode: expected to always return valid JSON, but with
-  occasional field-level drift consistent with Day 7's prediction — e.g.
+  occasional field-level drift consistent with Day 7's prediction  e.g.
   `confidence_score` returned as a string instead of a float, or fields
   reordered/renamed slightly across calls.
 - Deviation from Day 7 predictions: none expected; this run is treated
