@@ -43,8 +43,8 @@ described in the system prompt), not strict `json_schema` enforcement.
 Independent sources checked while writing this confirm the model has no
 JSON-schema enforcement and can require retry loops when strict structure
 is needed. This matches Day 7's prediction exactly, so the fallback
-strategy already planned — strict system prompt + output parser +
-retry-on-invalid-json — stands as the production approach rather than a
+strategy already planned  strict system prompt + output parser +
+retry-on-invalid-json  stands as the production approach rather than a
 contingency.
 
 This does not block either project: DocuMind and BISINDO AI were already
