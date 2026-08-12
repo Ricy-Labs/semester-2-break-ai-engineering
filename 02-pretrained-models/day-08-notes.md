@@ -31,7 +31,7 @@ to `json_object` mode as suspected.
   reordered/renamed slightly across calls.
 - Deviation from Day 7 predictions: none expected; this run is treated
   as confirming Day 7's theory rather than revealing new behavior.
-
+ 
 ## Decision
 Keep `llama-3.3-70b-versatile` and treat `json_object` mode + a
 validation/parser layer as required, not optional, for both DocuMind and
