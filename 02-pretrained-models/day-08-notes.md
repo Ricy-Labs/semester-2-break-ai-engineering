@@ -1,4 +1,4 @@
-# Day 8 — Module 2: Verifying Structured Output on Groq
+# Day 8  Module 2: Verifying Structured Output on Groq
 
 ## Focus
 Followed up on Day 7's open item: verify against real Groq output whether
