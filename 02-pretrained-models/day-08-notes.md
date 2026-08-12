@@ -5,7 +5,7 @@ Followed up on Day 7's open item: verify against real Groq output whether
 `llama-3.3-70b-versatile` supports strict `json_schema` mode, or is limited
 to `json_object` mode as suspected.
 
-> **DRAFT — Result section is theory-based, not from an actual saved run.**
+> **DRAFT  Result section is theory-based, not from an actual saved run.**
 > The real test was run earlier today but output wasn't kept/logged.
 > Re-run and paste actual output next session to replace the Result
 > section below with observed data.
