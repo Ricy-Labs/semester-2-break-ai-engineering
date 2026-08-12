@@ -49,4 +49,4 @@ contingency.
 
 This does not block either project: DocuMind and BISINDO AI were already
 scoped assuming a parser layer might be needed (see Day 7 "Fallback
-strategy" note), so no rework — just confirmation to build it as planned.
+strategy" note), so no rework  just confirmation to build it as planned.
