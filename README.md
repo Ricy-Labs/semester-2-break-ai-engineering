@@ -11,8 +11,8 @@ Learning log from my semester 2 break, a 40-day self-directed sprint through 6 c
 | # | Module | Days | Status |
 |---|--------|------|--------|
 | 1 | [Prompt Engineering](./01-prompt-engineering) | 1-4 | Done |
-| 2 | [Pre-trained Models & 3rd Party Platforms](./02-pretrained-models) | 5-9 | In progress |
-| 3 | [Embedding](./03-embedding) | 10-13 | Not started |
+| 2 | [Pre-trained Models & 3rd Party Platforms](./02-pretrained-models) | 5-9 | Done |
+| 3 | [Embedding](./03-embedding) | 10-13 | In progress |
 | 4 | [Vector Database](./04-vector-db) | 14-17 | Not started |
 | 5 | [RAG](./05-rag) | 18-25 | Not started |
 | 6 | [AI Agents](./06-ai-agents) | 26-33 | Not started |
