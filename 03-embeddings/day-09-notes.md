@@ -1,7 +1,7 @@
 # Day 9  Embeddings Fundamentals
 
 **Module:** 03 - Embeddings
-**Date:** [fill in today's date]
+**Date:** [13-08-2026]
 **Project link:** DocuMind (RAG pipeline)
 
 ---
