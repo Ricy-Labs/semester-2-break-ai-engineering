@@ -53,7 +53,7 @@ This confirms the core assumption RAG depends on: semantic closeness in vector s
 
 ---
 
-## 4. Chunking — Why It Matters Before Embedding
+## 4. Chunking  Why It Matters Before Embedding
 
 A full document usually can't (and shouldn't) be embedded as a single vector:
 
