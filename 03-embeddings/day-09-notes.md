@@ -16,13 +16,13 @@ Two pieces of text with similar meaning end up close together in vector space, e
 - "How do I reset my password?" and "I forgot my login credentials" → close vectors (same intent, different words)
 - "How do I reset my password?" and "What's the weather today?" → distant vectors (unrelated intent)
 
-This distinction is why embeddings are the right layer for the retrieval step in RAG, and why generation (LLM) and retrieval (embedding model) are two separate concerns in the pipeline — they solve different problems and use different models.
+This distinction is why embeddings are the right layer for the retrieval step in RAG, and why generation (LLM) and retrieval (embedding model) are two separate concerns in the pipeline  they solve different problems and use different models.
 
 ---
 
 ## 2. sentence-transformers (DocuMind stack)
 
-`sentence-transformers` is the library used in DocuMind to generate embeddings locally, since Groq (the LLM provider for this project) does not expose an embedding endpoint — embedding generation and text generation are handled by different, specialized models.
+`sentence-transformers` is the library used in DocuMind to generate embeddings locally, since Groq (the LLM provider for this project) does not expose an embedding endpoint  embedding generation and text generation are handled by different, specialized models.
 
 **Key models compared:**
 
@@ -31,7 +31,7 @@ This distinction is why embeddings are the right layer for the retrieval step in
 | all-MiniLM-L6-v2 | 384 | Fast | Good default for prototyping, lower resource cost |
 | all-mpnet-base-v2 | 768 | Slower | Higher accuracy, better for production retrieval quality |
 
-**Trade-off logic:** higher dimension generally captures more semantic nuance but costs more compute and storage per vector. For an early-stage project like DocuMind, starting with `all-MiniLM-L6-v2` is the reasonable default — it's cheap enough to iterate quickly, and can be swapped for `all-mpnet-base-v2` later if retrieval quality becomes the bottleneck.
+**Trade-off logic:** higher dimension generally captures more semantic nuance but costs more compute and storage per vector. For an early-stage project like DocuMind, starting with `all-MiniLM-L6-v2` is the reasonable default  it's cheap enough to iterate quickly, and can be swapped for `all-mpnet-base-v2` later if retrieval quality becomes the bottleneck.
 
 ---
 
@@ -57,9 +57,9 @@ This confirms the core assumption RAG depends on: semantic closeness in vector s
 
 A full document usually can't (and shouldn't) be embedded as a single vector:
 
-- **Context dilution** — a long document covers many topics; one embedding vector can't represent all of them well
-- **Retrieval precision** — if a user asks about one specific paragraph, retrieving the whole document as a single unit returns too much irrelevant context
-- **Model limits** — embedding models have a max input length; long documents may get truncated silently if not chunked
+- **Context dilution**  a long document covers many topics; one embedding vector can't represent all of them well
+- **Retrieval precision**  if a user asks about one specific paragraph, retrieving the whole document as a single unit returns too much irrelevant context
+- **Model limits**  embedding models have a max input length; long documents may get truncated silently if not chunked
 
 **Chunking strategy notes:**
 - Split documents into smaller segments (e.g., paragraphs or fixed token windows)
