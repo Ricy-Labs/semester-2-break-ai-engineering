@@ -1,4 +1,4 @@
-# Day 9 — Embeddings Fundamentals
+# Day 9  Embeddings Fundamentals
 
 **Module:** 03 - Embeddings
 **Date:** [fill in today's date]
