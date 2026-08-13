@@ -43,7 +43,7 @@ Basic workflow tested:
 2. Encode a small set of sample sentences into vectors
 3. Compute cosine similarity between vector pairs
 
-**Cosine similarity** measures the angle between two vectors rather than their magnitude — this matters because it means embedding comparison is about *direction* (semantic meaning) not *length* (how much text there is).
+**Cosine similarity** measures the angle between two vectors rather than their magnitude  this matters because it means embedding comparison is about *direction* (semantic meaning) not *length* (how much text there is).
 
 **Observed pattern:**
 - Semantically related sentences → similarity scores clustering high (roughly 0.6–0.9 range)
