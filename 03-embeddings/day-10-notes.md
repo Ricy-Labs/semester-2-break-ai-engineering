@@ -1,4 +1,4 @@
-# Day 10  Chunking Strategy & Embedding Model Comparison
+# Day 10 Chunking Strategy & Embedding Model Comparison
 
 **Module:** 03 - Embeddings
 **Date:** August 14, 2026
