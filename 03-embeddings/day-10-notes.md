@@ -48,7 +48,7 @@ Continuation from Day 9's open items:
 
 ## 4. Open Questions / Risks
 
-- No real numbers exist yet for either the chunk experiment or the model comparison — everything above is a placeholder hypothesis
+- No real numbers exist yet for either the chunk experiment or the model comparison  everything above is a placeholder hypothesis
 - Real test needs an actual DocuMind sample document with known "ground truth" relevant sections, so retrieval quality can be judged, not guessed
 - Need to decide the evaluation method (manual inspection vs a small labeled query set) before running this for real
 
@@ -56,6 +56,6 @@ Continuation from Day 9's open items:
 
 ## Next Steps
 
-- [ ] **Priority:** Re-run this as a real hands-on experiment with actual chunk size/overlap values and actual similarity scores — replace all theoretical tables above
+- [ ] **Priority:** Re-run this as a real hands-on experiment with actual chunk size/overlap values and actual similarity scores  replace all theoretical tables above
 - [ ] Pick or write 1 ground-truth sample doc + a few test queries with known correct chunks
 - [ ] Move into Module 4: Vector Databases (ChromaDB setup) once chunking strategy is confirmed
