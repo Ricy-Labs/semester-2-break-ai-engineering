@@ -14,7 +14,7 @@ Continuation from Day 9's open items:
 
 ---
 
-## 2. Chunk Size / Overlap Experiment (DRAFT — theoretical)
+## 2. Chunk Size / Overlap Experiment (DRAFT theoretical)
 
 **Setup (planned):**
 - Sample document: one representative DocuMind test doc
@@ -26,7 +26,7 @@ Continuation from Day 9's open items:
 | Chunk size | Overlap | Expected retrieval precision | Expected context completeness |
 |---|---|---|---|
 | 256 | 10% | Higher precision, risk of losing context | Lower |
-| 512 | 10–20% | Balanced — likely best default | Balanced |
+| 512 | 10–20% | Balanced likely best default | Balanced |
 | 1024 | 20% | Lower precision, more context per chunk | Higher |
 
 **Reasoning (not yet validated):** smaller chunks should return more targeted matches but risk splitting an idea across chunks; larger chunks preserve more context per match but dilute the embedding's specificity, which could pull in irrelevant chunks during retrieval. 512 tokens with ~10–20% overlap is the commonly recommended starting point in RAG literature, so it's the working hypothesis for DocuMind's default — **needs to be confirmed empirically**.
