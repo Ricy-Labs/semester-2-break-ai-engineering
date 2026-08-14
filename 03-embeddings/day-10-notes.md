@@ -29,11 +29,11 @@ Continuation from Day 9's open items:
 | 512 | 10–20% | Balanced likely best default | Balanced |
 | 1024 | 20% | Lower precision, more context per chunk | Higher |
 
-**Reasoning (not yet validated):** smaller chunks should return more targeted matches but risk splitting an idea across chunks; larger chunks preserve more context per match but dilute the embedding's specificity, which could pull in irrelevant chunks during retrieval. 512 tokens with ~10–20% overlap is the commonly recommended starting point in RAG literature, so it's the working hypothesis for DocuMind's default — **needs to be confirmed empirically**.
+**Reasoning (not yet validated):** smaller chunks should return more targeted matches but risk splitting an idea across chunks; larger chunks preserve more context per match but dilute the embedding's specificity, which could pull in irrelevant chunks during retrieval. 512 tokens with ~10–20% overlap is the commonly recommended starting point in RAG literature, so it's the working hypothesis for DocuMind's default  **needs to be confirmed empirically**.
 
 ---
 
-## 3. Model Comparison: `all-MiniLM-L6-v2` vs `all-mpnet-base-v2` (DRAFT — theoretical)
+## 3. Model Comparison: `all-MiniLM-L6-v2` vs `all-mpnet-base-v2` (DRAFT theoretical)
 
 | Aspect | all-MiniLM-L6-v2 | all-mpnet-base-v2 |
 |---|---|---|
@@ -42,7 +42,7 @@ Continuation from Day 9's open items:
 | Expected relative accuracy | Good baseline | Likely better semantic nuance |
 | Storage cost per chunk | Lower | Higher |
 
-**Hypothesis (not yet tested on DocuMind data):** `all-mpnet-base-v2` should produce noticeably better similarity separation between related/unrelated chunks compared to `all-MiniLM-L6-v2`, at the cost of slower encoding and larger vector storage. Whether that trade-off is worth it for DocuMind depends on real query-quality testing — no evidence yet either way.
+**Hypothesis (not yet tested on DocuMind data):** `all-mpnet-base-v2` should produce noticeably better similarity separation between related/unrelated chunks compared to `all-MiniLM-L6-v2`, at the cost of slower encoding and larger vector storage. Whether that trade-off is worth it for DocuMind depends on real query-quality testing no evidence yet either way.
 
 ---
 
