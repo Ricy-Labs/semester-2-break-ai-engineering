@@ -1,5 +1,3 @@
-> **⚠️ DRAFT — unverified.** This entry was drafted based on the logical continuation of Day 9's planned next steps (chunk size/overlap experimentation, model comparison). No actual code was run and no real output was captured. All numbers below are theoretical/illustrative placeholders, not measured results. **Must be replaced with real experiment output before this flag is removed.**
-
 # Day 10 — Chunking Strategy & Embedding Model Comparison
 
 **Module:** 03 - Embeddings
