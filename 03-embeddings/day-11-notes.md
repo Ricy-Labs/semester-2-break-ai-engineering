@@ -73,14 +73,14 @@
 
 **Hypothesis on when `all-mpnet-base-v2` would help:**
 - Cases with heavier paraphrasing or more nuanced semantic queries, where MiniLM's smaller capacity likely loses some semantic nuance
-- Trade-off to weigh in Module 4: mpnet's better semantic capture vs its slower inference and larger vector size — relevant once real-time DocuMind latency becomes a concern
+- Trade-off to weigh in Module 4: mpnet's better semantic capture vs its slower inference and larger vector size  relevant once real-time DocuMind latency becomes a concern
 
 ---
 
 ## 5. Housekeeping
 
 - [ ] README updated: Module 2 → `Done`, Module 3 → `In progress`
-- [ ] Day 7 `DRAFT — unverified` flag: still pending — needs re-run of structured output experiment
+- [ ] Day 7 `DRAFT  unverified` flag: still pending  needs re-run of structured output experiment
 
 ---
 
