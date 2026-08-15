@@ -41,13 +41,13 @@
 **Notes:**
 - Batch encoding (`model.encode(list_of_chunks)`) used instead of looping one-by-one  noticeably faster and is the pattern to keep for DocuMind's real ingestion pipeline
 - No GPU required at this scale; CPU inference was fast enough for a handful of chunks
-- No errors on empty/whitespace chunks in this test set, but empty-string guards should still be added in code per the established principle (validation belongs in code, not prompts — same logic applies to pipeline inputs)
+- No errors on empty/whitespace chunks in this test set, but empty-string guards should still be added in code per the established principle (validation belongs in code, not prompts  same logic applies to pipeline inputs)
 
 ---
 
 ## 3. Manual Similarity Search (Brute Force)
 
-**Method:** Cosine similarity computed manually between query embedding and all chunk embeddings (no vector DB — this is a deliberate step before Module 4 to understand the mechanism first, since Chroma will abstract this away later).
+**Method:** Cosine similarity computed manually between query embedding and all chunk embeddings (no vector DB  this is a deliberate step before Module 4 to understand the mechanism first, since Chroma will abstract this away later).
 
 **Test queries:**
 
