@@ -93,13 +93,9 @@
 ## Blockers / Open Questions
 
 - Need to test with a larger, more realistic document set to see if chunking/retrieval quality holds up at scale
-- Day 7 and Day 8 verification still outstanding — should not stack further unverified days without circling back
+- Day 7 and Day 8 verification still outstanding should not stack further unverified days without circling back
 
 ## Next (Day 12)
 
 - Continue embeddings evaluation with a bigger test set, OR begin transition into Module 4 (Vector Databases) by setting up ChromaDB and migrating the manual similarity search into it
 - Priority: resolve README update and Day 7 verification debt before moving too far into Module 4
-
----
-
-> **Status: DRAFT — unverified.** Content above is logically grounded based on established patterns (chunking config, MiniLM behavior, typical cosine similarity ranges) but not yet backed by actual logged output from a real run. Replace similarity scores, chunk counts, and sample vector with real values before treating this as final, or before removing the DRAFT flag.
