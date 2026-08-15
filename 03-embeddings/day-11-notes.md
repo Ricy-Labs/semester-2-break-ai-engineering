@@ -1,10 +1,4 @@
-# Day 11 — Embeddings: DocuMind Pipeline Implementation
-
-**Module:** 03 - Embeddings
-**Date:** 2026-08-15
-**Time spent:** ~3.5 hrs
-
----
+# Day 11  Embeddings: DocuMind Pipeline Implementation
 
 ## Goals for Today
 
@@ -12,13 +6,13 @@
 - [x] Generate embeddings using `all-MiniLM-L6-v2`
 - [x] Build manual cosine similarity search (no vector DB yet)
 - [x] Evaluate retrieval quality qualitatively
-- [ ] Update repo README (Module 2 → Done, Module 3 → In Progress)
+- [x] Update repo README (Module 2 → Done, Module 3 → In Progress)
 
 ---
 
 ## 1. Chunking Pipeline
 
-**Approach:** `RecursiveCharacterTextSplitter` from LangChain — chosen over manual splitting because it respects natural boundaries (paragraphs → sentences → words) before falling back to hard character cuts, reducing the chance of splitting mid-sentence.
+**Approach:** `RecursiveCharacterTextSplitter` from LangChain  chosen over manual splitting because it respects natural boundaries (paragraphs → sentences → words) before falling back to hard character cuts, reducing the chance of splitting mid-sentence.
 
 **Config used:**
 - Chunk size: 500 characters
