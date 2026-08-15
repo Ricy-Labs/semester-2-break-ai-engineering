@@ -22,7 +22,7 @@
 
 **Observations:**
 - Document produced roughly a dozen chunks depending on paragraph density
-- A few chunks ended up shorter than the target size where the splitter hit a paragraph boundary early — expected behavior, not a bug
+- A few chunks ended up shorter than the target size where the splitter hit a paragraph boundary early  expected behavior, not a bug
 - No mid-word cuts observed, confirming the recursive fallback logic is working as intended
 
 ---
