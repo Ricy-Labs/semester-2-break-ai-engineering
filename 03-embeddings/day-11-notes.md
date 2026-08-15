@@ -64,11 +64,11 @@
 ## 4. Qualitative Evaluation
 
 **Where `all-MiniLM-L6-v2` performed well:**
-- Direct or near-direct keyword/phrase matches — retrieval was fast and top-1 result was clearly correct
+- Direct or near-direct keyword/phrase matches  retrieval was fast and top-1 result was clearly correct
 - Short, focused queries mapped cleanly to the right chunk
 
 **Where it struggled:**
-- Paraphrased or reworded queries scored noticeably lower even when semantically correct — similarity gap between "correct but rephrased" and "wrong but keyword-adjacent" wasn't always wide
+- Paraphrased or reworded queries scored noticeably lower even when semantically correct  similarity gap between "correct but rephrased" and "wrong but keyword-adjacent" wasn't always wide
 - Vague or multi-topic queries returned ambiguous top-1 results
 
 **Hypothesis on when `all-mpnet-base-v2` would help:**
