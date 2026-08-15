@@ -31,7 +31,7 @@
 
 **Model:** `all-MiniLM-L6-v2` (sentence-transformers)
 
-**Output shape:** `(n_chunks, 384)` — 384-dim vectors per chunk, consistent with the model's known embedding dimension
+**Output shape:** `(n_chunks, 384)`  384-dim vectors per chunk, consistent with the model's known embedding dimension
 
 **Sample vector (truncated):**
 ```
@@ -39,7 +39,7 @@
 ```
 
 **Notes:**
-- Batch encoding (`model.encode(list_of_chunks)`) used instead of looping one-by-one — noticeably faster and is the pattern to keep for DocuMind's real ingestion pipeline
+- Batch encoding (`model.encode(list_of_chunks)`) used instead of looping one-by-one  noticeably faster and is the pattern to keep for DocuMind's real ingestion pipeline
 - No GPU required at this scale; CPU inference was fast enough for a handful of chunks
 - No errors on empty/whitespace chunks in this test set, but empty-string guards should still be added in code per the established principle (validation belongs in code, not prompts — same logic applies to pipeline inputs)
 
