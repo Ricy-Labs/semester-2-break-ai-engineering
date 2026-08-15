@@ -16,9 +16,9 @@
 
 **Config used:**
 - Chunk size: 500 characters
-- Chunk overlap: 50 characters (10% of chunk size — enough to preserve context across boundaries without excessive duplication)
+- Chunk overlap: 50 characters (10% of chunk size  enough to preserve context across boundaries without excessive duplication)
 
-**Test document:** Short sample PDF/txt (~2-3 pages, technical content representative of DocuMind's target use case — e.g. a product doc or article)
+**Test document:** Short sample PDF/txt (~2-3 pages, technical content representative of DocuMind's target use case  e.g. a product doc or article)
 
 **Observations:**
 - Document produced roughly a dozen chunks depending on paragraph density
