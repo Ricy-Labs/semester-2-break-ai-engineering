@@ -49,7 +49,7 @@ model_b = SentenceTransformer("all-mpnet-base-v2")
 
 ## Decision (pending real results)
 
-Default for DocuMind: **TBD after real run** — leaning toward keeping `all-MiniLM-L6-v2` unless mpnet shows clear qualitative gains.
+Default for DocuMind: **TBD after real run**  leaning toward keeping `all-MiniLM-L6-v2` unless mpnet shows clear qualitative gains.
 
 ## Next steps
 
