@@ -2,7 +2,7 @@
 
 ## Goal
 
-Compare two sentence-transformers models — `all-MiniLM-L6-v2` (used in Day 11) and `all-mpnet-base-v2` — on the same document/query set from Day 11, to decide which one should be the default embedding model for **DocuMind**.
+Compare two sentence-transformers models `all-MiniLM-L6-v2` (used in Day 11) and `all-mpnet-base-v2` on the same document/query set from Day 11, to decide which one should be the default embedding model for **DocuMind**.
 
 ## Why compare
 
@@ -19,7 +19,7 @@ Day 11 used `all-MiniLM-L6-v2` for the manual cosine similarity pipeline without
 
 - Same document set and queries as Day 11 (kept identical for apples-to-apples comparison)
 - Both models loaded via `sentence-transformers`
-- Metric: cosine similarity (manual, same function as Day 11 — no vector DB yet)
+- Metric: cosine similarity (manual, same function as Day 11 no vector DB yet)
 
 ```python
 from sentence_transformers import SentenceTransformer
