@@ -5,7 +5,7 @@
 Compare two sentence-transformers models `all-MiniLM-L6-v2` (used in Day 11) and `all-mpnet-base-v2` on the same document/query set from Day 11, to decide which one should be the default embedding model for **DocuMind**.
 
 ## Why compare
-
+ 
 Day 11 used `all-MiniLM-L6-v2` for the manual cosine similarity pipeline without testing alternatives. Before moving into Module 4 (Vector Databases), it makes sense to check whether a heavier model gives meaningfully better retrieval quality, since ChromaDB will be built on top of whatever model is chosen here.
 
 ## Models compared
