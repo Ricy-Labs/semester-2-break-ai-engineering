@@ -1,5 +1,5 @@
 # Day 12  Embedding Model Comparison
-
+ 
 ## Goal
 
 Compare two sentence-transformers models `all-MiniLM-L6-v2` (used in Day 11) and `all-mpnet-base-v2` on the same document/query set from Day 11, to decide which one should be the default embedding model for **DocuMind**.
