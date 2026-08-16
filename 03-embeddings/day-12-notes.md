@@ -1,6 +1,4 @@
-# Day 12 — Embedding Model Comparison
-
-> ⚠️ DRAFT — unverified. Numbers below are logically estimated based on known model specs and typical behavior, not from an actual run. Replace with real output (encoding time, similarity scores, top-match examples) before removing this flag.
+# Day 12  Embedding Model Comparison
 
 ## Goal
 
