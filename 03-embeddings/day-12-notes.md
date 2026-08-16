@@ -44,7 +44,7 @@ model_b = SentenceTransformer("all-mpnet-base-v2")
 ## Analysis (placeholder reasoning)
 
 - If `mpnet` doesn't show a **clear, consistent** improvement in top-match relevance over `MiniLM`, the extra compute/storage cost (2x dimension, slower encoding) isn't justified for DocuMind's use case.
-- `MiniLM` is likely to remain the default unless real results show mpnet meaningfully changes which documents get retrieved as top match — not just a marginal score difference.
+- `MiniLM` is likely to remain the default unless real results show mpnet meaningfully changes which documents get retrieved as top match not just a marginal score difference.
 - This decision matters because Module 4 (ChromaDB) will store whatever embeddings are chosen here at scale; switching later means re-embedding the whole corpus.
 
 ## Decision (pending real results)
