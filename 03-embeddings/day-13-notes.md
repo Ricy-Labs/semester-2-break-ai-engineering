@@ -23,12 +23,12 @@ Three categories designed to probe different weaknesses:
 ## Methodology
 
 - Reuse the same document corpus and embeddings from Day 11
-- For each category, write 3–5 test queries
+- For each category, write 3-5 test queries
 - Run manual cosine similarity, record top-3 matches and their scores
 - Manually label whether each top match is actually relevant (qualitative judgment)
 - Compare behavior across categories to surface patterns
 
-## Results (placeholder — pending real run)
+## Results (placeholder pending real run)
 
 | Query Type | Example Query | Top Match Relevant? | Similarity Score | Notes |
 |---|---|---|---|---|
