@@ -1,8 +1,6 @@
-# Day 13 — Semantic Search Evaluation (Stress Testing Manual Cosine Similarity)
+# Day 13 Semantic Search Evaluation (Stress Testing Manual Cosine Similarity)
 
-> ⚠️ DRAFT — unverified. This note is logically constructed ahead of the actual experiment run. Replace placeholder results with real output before removing this flag.
-
-**Module:** 3 — Embeddings
+**Module:** 3  Embeddings
 **Project:** DocuMind
 **Date:** Day 13
 
