@@ -6,7 +6,7 @@
 
 ## Objective
 
-Extend the Day 11 manual cosine similarity search by testing it against harder query types — ambiguous phrasing, paraphrases, and edge cases — to identify where a naive manual similarity search starts to break down. The goal is not just "does it work," but "where and why does it fail," since that failure point is the concrete justification for introducing a vector database in Module 4.
+Extend the Day 11 manual cosine similarity search by testing it against harder query types  ambiguous phrasing, paraphrases, and edge cases  to identify where a naive manual similarity search starts to break down. The goal is not just "does it work," but "where and why does it fail," since that failure point is the concrete justification for introducing a vector database in Module 4.
 
 ## Background
 
@@ -16,9 +16,9 @@ Day 11 established the baseline: generate embeddings with `all-MiniLM-L6-v2`, co
 
 Three categories designed to probe different weaknesses:
 
-1. **Paraphrased queries** — same intent, different wording than the source document (tests whether the embedding model captures meaning vs. surface lexical overlap)
-2. **Ambiguous queries** — short or vague queries that could plausibly match multiple unrelated chunks (tests precision / top-k relevance)
-3. **Edge case queries** — queries using domain-specific terms not well represented in general-purpose embedding training data, or queries that combine two unrelated concepts from the document
+1. **Paraphrased queries**  same intent, different wording than the source document (tests whether the embedding model captures meaning vs. surface lexical overlap)
+2. **Ambiguous queries**  short or vague queries that could plausibly match multiple unrelated chunks (tests precision / top-k relevance)
+3. **Edge case queries**  queries using domain-specific terms not well represented in general-purpose embedding training data, or queries that combine two unrelated concepts from the document
 
 ## Methodology
 
