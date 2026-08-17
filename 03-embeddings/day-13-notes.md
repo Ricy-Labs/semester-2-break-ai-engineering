@@ -40,7 +40,7 @@ Three categories designed to probe different weaknesses:
 
 - Paraphrased queries should still perform reasonably well, since `all-MiniLM-L6-v2` is trained for semantic similarity rather than keyword matching.
 - Ambiguous queries are expected to show smaller score gaps between the top-1 and top-2 matches  a sign the model is uncertain, which manual top-k selection can't account for (no re-ranking, no metadata filtering).
-- Edge case / domain-specific queries are expected to perform worst, since general-purpose embedding models weren't trained on domain-specific corpora — this is a likely candidate for later fine-tuning or hybrid search discussion.
+- Edge case / domain-specific queries are expected to perform worst, since general-purpose embedding models weren't trained on domain-specific corpora this is a likely candidate for later fine-tuning or hybrid search discussion.
 - Manual cosine similarity has no mechanism for filtering, indexing, or approximate nearest neighbor search  at small scale this doesn't matter, but the exercise should make clear why it won't scale.
 
 ## Key Takeaway (why this matters for Module 4)
