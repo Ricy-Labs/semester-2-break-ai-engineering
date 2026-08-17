@@ -39,13 +39,13 @@ Three categories designed to probe different weaknesses:
 ## Expected Observations (hypothesis, to be confirmed)
 
 - Paraphrased queries should still perform reasonably well, since `all-MiniLM-L6-v2` is trained for semantic similarity rather than keyword matching.
-- Ambiguous queries are expected to show smaller score gaps between the top-1 and top-2 matches — a sign the model is uncertain, which manual top-k selection can't account for (no re-ranking, no metadata filtering).
+- Ambiguous queries are expected to show smaller score gaps between the top-1 and top-2 matches  a sign the model is uncertain, which manual top-k selection can't account for (no re-ranking, no metadata filtering).
 - Edge case / domain-specific queries are expected to perform worst, since general-purpose embedding models weren't trained on domain-specific corpora — this is a likely candidate for later fine-tuning or hybrid search discussion.
-- Manual cosine similarity has no mechanism for filtering, indexing, or approximate nearest neighbor search — at small scale this doesn't matter, but the exercise should make clear why it won't scale.
+- Manual cosine similarity has no mechanism for filtering, indexing, or approximate nearest neighbor search  at small scale this doesn't matter, but the exercise should make clear why it won't scale.
 
 ## Key Takeaway (why this matters for Module 4)
 
-This evaluation exists to build intuition, not just to log numbers. The specific failure modes observed here (ambiguous score gaps, weak domain-term matches, no filtering mechanism) are exactly the problems ChromaDB is introduced to address in Module 4 — via indexing, metadata filtering, and more efficient similarity search at scale. Understanding the manual limitation first should make the value of the abstraction concrete instead of assumed.
+This evaluation exists to build intuition, not just to log numbers. The specific failure modes observed here (ambiguous score gaps, weak domain-term matches, no filtering mechanism) are exactly the problems ChromaDB is introduced to address in Module 4  via indexing, metadata filtering, and more efficient similarity search at scale. Understanding the manual limitation first should make the value of the abstraction concrete instead of assumed.
 
 ## Next Steps
 
