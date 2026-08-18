@@ -27,7 +27,7 @@ This is essentially what ChromaDB will do internally with an ANN index  the manu
 from sentence_transformers import SentenceTransformer
 import numpy as np
 
-model = SentenceTransformer("all-MiniLM-L6-v2")  # pending Day 12 final decision
+model = SentenceTransformer("all-MiniLM-L6-v2")  
 
 corpus = [...]  # 10-20 sample chunks
 corpus_embeddings = model.encode(corpus)  # shape: (n, dim)
@@ -55,8 +55,8 @@ top_k_idx = np.argsort(scores)[::-1][:3]
 
 ## Key Learnings (placeholder)
 
-- `[TBD — e.g. brute-force cosine similarity is O(n), fine for small corpus but won't scale — this is exactly the gap ChromaDB fills]`
-- `[TBD — any surprising ranking behavior observed]`
+- `[TBD  e.g. brute-force cosine similarity is O(n), fine for small corpus but won't scale — this is exactly the gap ChromaDB fills]`
+- `[TBD  any surprising ranking behavior observed]`
 
 ---
 
