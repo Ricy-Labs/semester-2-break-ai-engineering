@@ -1,4 +1,4 @@
-# Day 14 — Manual Semantic Search (Pre-ChromaDB)
+# Day 14 Manual Semantic Search (Pre-ChromaDB)
 
 ## Objective
 
