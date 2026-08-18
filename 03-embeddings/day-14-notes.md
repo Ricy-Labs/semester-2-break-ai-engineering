@@ -12,10 +12,10 @@ Before introducing ChromaDB in Module 4, implement a **manual semantic search pi
 
 A manual semantic search pipeline has 4 steps:
 
-1. **Corpus prep** — take a small set of text chunks (10–20 items), reuse the `RecursiveCharacterTextSplitter` config from Day 11 (500-char chunks, 50-char overlap) if chunking is needed.
-2. **Encode** — embed all chunks with the chosen sentence-transformers model → produces a matrix of shape `(n_chunks, embedding_dim)`.
-3. **Query** — embed a user query with the same model → single vector.
-4. **Rank** — compute cosine similarity between the query vector and every chunk vector, sort descending, return top-k.
+1. **Corpus prep**  take a small set of text chunks (10–20 items), reuse the `RecursiveCharacterTextSplitter` config from Day 11 (500-char chunks, 50-char overlap) if chunking is needed.
+2. **Encode**  embed all chunks with the chosen sentence-transformers model → produces a matrix of shape `(n_chunks, embedding_dim)`.
+3. **Query**  embed a user query with the same model → single vector.
+4. **Rank**  compute cosine similarity between the query vector and every chunk vector, sort descending, return top-k.
 
 This is essentially what ChromaDB will do internally with an ANN index — the manual version just does it with brute-force `numpy` instead of an optimized index structure.
 
