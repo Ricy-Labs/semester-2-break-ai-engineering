@@ -1,5 +1,5 @@
 # Day 14 Manual Semantic Search (Pre-ChromaDB)
- 
+  
 ## Objective
 
 Before introducing ChromaDB in Module 4, implement a **manual semantic search pipeline** over a small document set using raw embeddings + cosine similarity. This continues the "mechanics before abstractions" principle established on Day 9  understanding how a vector DB works internally before letting it abstract the process away.
