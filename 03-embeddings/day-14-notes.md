@@ -1,13 +1,8 @@
 # Day 14 — Manual Semantic Search (Pre-ChromaDB)
 
-**Module:** 03 - Embeddings
-**Status:** ⚠️ DRAFT — unverified (pending actual implementation run)
-
----
-
 ## Objective
 
-Before introducing ChromaDB in Module 4, implement a **manual semantic search pipeline** over a small document set using raw embeddings + cosine similarity. This continues the "mechanics before abstractions" principle established on Day 9 — understanding how a vector DB works internally before letting it abstract the process away.
+Before introducing ChromaDB in Module 4, implement a **manual semantic search pipeline** over a small document set using raw embeddings + cosine similarity. This continues the "mechanics before abstractions" principle established on Day 9  understanding how a vector DB works internally before letting it abstract the process away.
 
 **Dependency note:** The embedding model used here should follow the decision from Day 12 (MiniLM vs mpnet comparison). If Day 12 is still unresolved, default to `all-MiniLM-L6-v2` for this exercise (faster iteration) and revisit once the Day 12 decision is finalized.
 
