@@ -60,16 +60,6 @@ top_k_idx = np.argsort(scores)[::-1][:3]
 
 ---
 
-## Outstanding
-
-- [ ] Run actual implementation with real corpus + queries
-- [ ] Fill in real similarity scores and observations above
-- [ ] Remove DRAFT flag once verified
-- [ ] Cross-check embedding model choice against finalized Day 12 decision
-- [ ] Commit: `git add 03-embeddings/day-14-notes.md`
-
----
-
 ## Next
 
-Module 4 (Vector Databases / ChromaDB) — replace this manual brute-force step with ChromaDB's indexed similarity search, and compare behavior/performance against this manual baseline.
+Module 4 (Vector Databases / ChromaDB)  replace this manual brute-force step with ChromaDB's indexed similarity search, and compare behavior/performance against this manual baseline.
