@@ -17,7 +17,7 @@ A manual semantic search pipeline has 4 steps:
 3. **Query**  embed a user query with the same model → single vector.
 4. **Rank**  compute cosine similarity between the query vector and every chunk vector, sort descending, return top-k.
 
-This is essentially what ChromaDB will do internally with an ANN index — the manual version just does it with brute-force `numpy` instead of an optimized index structure.
+This is essentially what ChromaDB will do internally with an ANN index  the manual version just does it with brute-force `numpy` instead of an optimized index structure.
 
 ---
 
